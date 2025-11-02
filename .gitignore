@@ -1,0 +1,77 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (if using any npm packages)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ChromaDB and vector stores
+chroma_db/
+*.db
+*.sqlite
+
+# Dependencies
+.venv/
+venv/
+.pip-cache/
+
+# Logs
+*.log
+logs/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Chrome extension specific
+*.pem
+*.crx
+
+# API Keys and sensitive data
+api_keys.json
+secrets.json
+credentials.json

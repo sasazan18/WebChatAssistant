@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebChat AI Assistant</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <!-- WebChat Chat Window -->
+    <div id="webchat-chat-window">
+        <!-- Header -->
+        <div id="webchat-header">
+            <div class="webchat-avatar">
+                <img src="logo.png" alt="WebChat Logo" />
+            </div>
+            <div class="webchat-header-text">
+                <div class="webchat-header-title">WebChat</div>
+            </div>
+        </div>
+        
+        <!-- Messages area -->
+        <div id="webchat-messages">
+            <div class="webchat-bot-message-group">
+                <div class="webchat-message-bubble webchat-bot-bubble">
+                    <div class="webchat-message-content">
+                        Hi there 👋<br>
+                        <strong>Welcome to WebChat!</strong><br>
+                        How can I help you today?
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Suggested Actions -->
+            <div class="webchat-suggestions">
+                <button class="webchat-suggestion-btn" data-query="What can this assistant do?">What can this assistant do?</button>
+                <button class="webchat-suggestion-btn" data-query="Tell me about this page">Tell me about this page</button>
+                <button class="webchat-suggestion-btn" data-query="Summarize the main content">Summarize the main content</button>
+                <button class="webchat-suggestion-btn" data-query="What are the key points?">What are the key points?</button>
+            </div>
+        </div>
+        
+        <!-- Input area -->
+        <div id="webchat-input-area">
+            <div id="webchat-input-container">
+                <input type="text" id="webchat-query" placeholder="Write your message..." />
+                <button id="webchat-send">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
