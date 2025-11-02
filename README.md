@@ -1,6 +1,8 @@
 # WebChat Assistant
 
 A Chrome extension that allows you to chat with any webpage using AI-powered conversational assistance. Ask questions about the content of any website and get intelligent answers based on the page content with full conversation history.
+<img width="355" height="503" alt="Screenshot 2025-11-03 at 6 53 33 AM" src="https://github.com/user-attachments/assets/cfc7080c-35cc-4cc1-ae7a-98f8d209e464" />
+
 
 ## Features
 
